@@ -11,28 +11,32 @@
         android:layout_width="0dp"
         android:layout_height="150dp"
         android:scaleType="fitCenter"
-        android:layout_marginTop="-75dp"
-        android:src="@drawable/headerandfooter"
+        android:layout_marginTop="-28dp"
+        android:src="@drawable/heaxderchat"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:contentDescription="@string/register_header_image_desc" />
 
     <!-- TextView del título -->
+
+    <!-- CardView para los campos de entrada -->
+
     <TextView
         android:id="@+id/titleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/register_title_text"
-        android:textSize="44sp"
-        android:textColor="@android:color/black"
+        android:layout_marginTop="76dp"
         android:fontFamily="sans-serif-medium"
-        android:layout_marginTop="160dp"
-        app:layout_constraintTop_toBottomOf="@id/headerImage"
+        android:text="@string/register_title_text"
+        android:textColor="#5db0e8"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/headerImage" />
 
-    <!-- CardView para los campos de entrada -->
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="0dp"
@@ -81,7 +85,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/register_button_text"
-                android:layout_marginTop="16dp" />
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#5db0e8"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -103,8 +108,8 @@
         android:layout_width="0dp"
         android:layout_height="150dp"
         android:scaleType="fitCenter"
-        android:layout_marginBottom="-80dp"
-        android:src="@drawable/headerandfooter"
+        android:layout_marginBottom="-30dp"
+        android:src="@drawable/footer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

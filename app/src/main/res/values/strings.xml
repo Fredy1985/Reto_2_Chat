@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EjemploChat</string>
+    <string name="app_name">MiracleChat</string>
     <!-- Textos de la vista Chat -->
     <string name="chat_header_image_desc">Imagen de encabezado</string>
     <string name="chat_title_text">Buscar usuario por correo</string>
@@ -11,7 +11,7 @@
 
     <!-- Textos de la vista de inicio de sesión -->
     <string name="login_header_image_desc">Imagen del encabezado</string>
-    <string name="login_title_text">Iniciar sesión</string>
+    <string name="login_title_text">Ingreso Sala</string>
     <string name="login_email_hint">Correo electrónico</string>
     <string name="login_password_hint">Contraseña</string>
     <string name="login_button_text">Iniciar sesión</string>

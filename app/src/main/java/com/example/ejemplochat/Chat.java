@@ -3,11 +3,14 @@ package com.example.ejemplochat;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -46,6 +49,7 @@ public class Chat extends AppCompatActivity implements UserListContract, ChatCon
     private TextView textViewMiddleTitle;
     private CardView listViewChatUsuarios;
     private LinearLayout messageInputLayout;
+    private ImageView salir;
 
     // Variables de Firebase
     private FirebaseAuth mAuth;
@@ -60,6 +64,7 @@ public class Chat extends AppCompatActivity implements UserListContract, ChatCon
     private UserModel user1;
     private UserModel user2;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -85,6 +90,7 @@ public class Chat extends AppCompatActivity implements UserListContract, ChatCon
         conversationsListView = findViewById(R.id.conversationsListView);
         messageEditText = findViewById(R.id.messageEditText);
         sendButton = findViewById(R.id.sendButton);
+        salir = findViewById(R.id.logout);
 
         // Inicialización de presentadores
         presenter = new UserListPresenterImpl(this);
@@ -107,6 +113,12 @@ public class Chat extends AppCompatActivity implements UserListContract, ChatCon
             public void onClick(View v) {
                 sendMessage();
             }
+        });
+
+        salir.setOnClickListener(v ->{
+            Intent salir = new Intent(Chat.this, Login.class);
+            startActivity(salir);
+            finish();
         });
     }
 
