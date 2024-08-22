@@ -1,6 +1,6 @@
 <h1 align="center">
 	<img src="https://i.pinimg.com/originals/f3/bc/33/f3bc333911394cb70594c3a20bcadbb7.gif" width="60" style="float: right;">
-	<b>Hello everyone, Welcome to the Group 4 repository for the Athena programming program.</b>
+	<b>Hello everyone, Welcome to the Group 4 repository for the Atena programming course Todos a la U.</b>
 	<img src="https://i.pinimg.com/originals/f3/bc/33/f3bc333911394cb70594c3a20bcadbb7.gif" width="60" style="float: left;">
 </h1>
 <div>
@@ -43,3 +43,22 @@
 </tr>
 </table>
 </div>
+	<h2> Now a litte Demo of the App</h2>
+<div>
+	<p align="center">
+		<img src="https://i.imgur.com/cfrdWTX.gif" alt="Demo">
+	</p>
+</div>
+<br>
+
+<div>
+  <h2>You can learn more about our app by clicking below</h2>
+	[Document HandBook](https://docs.google.com/document/d/1tyl0OlqBdHbFIDgMt4fa20FBBkV2AJ1OzQWuUT1hIfQ))
+</div>
+
+<h1>We would like to express our sincere gratitude for your attention. Sincerely, Team 4.</h1>
+
+* 😄Javier Andres Rivera - javier.rivera.electronics@gmail.com
+* 🤔Darwin Edison Rozo Mendivelso - neo_rozo@hotmail.com
+* 🌱Luis Fredy Gómez Mancera - luisfredygomezmancera@gmail.com
+* 💬Jairo Duvan Cuervo Olarte.
