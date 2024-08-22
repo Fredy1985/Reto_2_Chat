@@ -1,6 +1,6 @@
 <h1 align="center">
 	<img src="https://i.pinimg.com/originals/f3/bc/33/f3bc333911394cb70594c3a20bcadbb7.gif" width="60" style="float: right;">
-	<b>Hello everyone, Welcome to the Group 4 repository for the Atena programming course Todos a la U.</b>
+	<b>Hello everyone, Welcome to the Group 4 repository for the Atenea programming course Todos a la U.</b>
 	<img src="https://i.pinimg.com/originals/f3/bc/33/f3bc333911394cb70594c3a20bcadbb7.gif" width="60" style="float: left;">
 </h1>
 <div>
