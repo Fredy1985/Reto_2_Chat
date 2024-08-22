@@ -62,7 +62,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/chat_button"
-                android:layout_gravity="center_vertical" />
+                android:layout_gravity="center_vertical"
+                android:backgroundTint="#6ab6e7"/>
         </LinearLayout>
     </LinearLayout>
 
