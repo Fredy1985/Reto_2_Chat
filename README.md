@@ -27,18 +27,18 @@
 </tr>
 <tr>
   <td>
-    <img src="https://i.imgur.com/3fFlZi7.png" height="800" alt="Search Person Button">  <p class="text-center">Buscar una persona</p>  
+    <img src="https://i.imgur.com/3fFlZi7.png" height="800" alt="Search Person Button">  <p class="text-center">Ventana de Caht</p>  
   </td>
   <td>
-    <img src="https://i.imgur.com/jLaEzuR.png" height="800" alt="find person">  <p class="text-center">Chat</p> 
+    <img src="https://i.imgur.com/jLaEzuR.png" height="800" alt="find person">  <p class="text-center">Busqueda de persona</p> 
   </td>
 </tr>
   <tr>
   <td>
-    <img src="https://i.imgur.com/4Gi925s.png" height="800" alt="message">  <p class="text-center">Buscar una persona</p>  
+    <img src="https://i.imgur.com/m5Ovbnu.png" height="800" alt="message">  <p class="text-center">Enviar Mensaje</p>  
   </td>
-  <td>
-    <img src="https://i.imgur.com/m5Ovbnu.png" height="800" alt="texting">  <p class="text-center">Chat</p> 
+<td>
+    <img src="https://i.imgur.com/C7GFHsK.png" height="800" alt="message">  <p class="text-center">Mensaje enviado</p>  
   </td>
 </tr>
 </table>
